@@ -46,7 +46,7 @@ function welcome(name) {
 //What is the difference between arguments and parameters?
 
   //Answer Here
-
+	//"An argument is passed into a function and a parameter is something given to a function, or a declaration, definition or prototype."
 
 //////////////////PROBLEM 5////////////////////
 
@@ -56,7 +56,12 @@ function welcome(name) {
 
 
   //Answer Here
-
+// 0
+// NaN
+// false
+// ''
+// undefined
+// null
 
 
 //////////////////PROBLEM 6////////////////////
@@ -66,7 +71,10 @@ function welcome(name) {
 //Create a function called myName that returns your name
 
   //Code Here
-  
+  function myName() {
+
+  	return "Robert DelValle";
+  }
 
 
 //Now save the function definition of myName into a new variable called newMyName

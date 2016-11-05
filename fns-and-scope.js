@@ -19,7 +19,10 @@ function isTyler(name) {
 
 
   //Code Here
-
+function getName() {
+	var name = prompt("What is your name?");
+	return name;
+}
 
 //////////////////PROBLEM 3////////////////////
 

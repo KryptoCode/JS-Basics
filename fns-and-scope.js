@@ -80,9 +80,9 @@ function welcome(name) {
 //Now save the function definition of myName into a new variable called newMyName
 
   //Code Here
-
+ var newMyName = myName;
 //Now alert the result of invoking newMyName
-
+newMyName();
 
 
 //////////////////PROBLEM 7////////////////////
@@ -92,9 +92,14 @@ function welcome(name) {
 //Create a function called outerFn which returns an anonymous function which returns your name.
 
   //Code Here
-
+function outerFn() {
+	return function() {
+		return "Robert DelValle";
+	}
+}
 //Now save the result of invoking outerFn into a variable called innerFn.
 
   //Code Here
-
+var innerFn = outerFn();
 //Now invoke innerFn.
+innerFn();
